@@ -1,11 +1,11 @@
 // import React from "react";
 // import { NavLink } from "react-router-dom";
 // import styled from "styled-components";
-import { FaHome } from "react-icons/fa";
+// import { FaHome } from "react-icons/fa";
 
-import { GoPerson } from "react-icons/go";
-import { IoMdContact } from "react-icons/io";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+// import { GoPerson } from "react-icons/go";
+// import { IoMdContact } from "react-icons/io";
+// import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
