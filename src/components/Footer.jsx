@@ -2,8 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Button } from "../styles/Button";
 import { NavLink } from "react-router-dom";
-// import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-// import { CgMail } from "react-icons/cg";
+import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
     <Wrapper>
@@ -37,17 +36,17 @@ const Footer = () => {
             <div className="footer-social--icons">
               <div>
                 <a href="https://www.linkedin.com" target="_blank">
-                  {/* <FaLinkedinIn className="icons" /> */}
+                  <FaLinkedinIn className="icons" />
                 </a>
               </div>
               <div>
                 <a href="https://www.instagram.com/" target="_blank">
-                  {/* <FaInstagram className="icons" /> */}
+                  <FaInstagram className="icons" />
                 </a>
               </div>
               <div>
                 <a href="https://github.com/" target="_blank">
-                  {/* <FaGithub className="icons" /> */}
+                  <FaGithub className="icons" />
                 </a>
               </div>
             </div>
