@@ -3,7 +3,6 @@ import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { Button } from "./styles/Button";
-import { LuArrowBigRight } from "react-icons/lu";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io";
@@ -39,15 +38,9 @@ const About = () => {
             </h1>
             <div>
               <ul>
-                <li className="hobbies">
-                  <LuArrowBigRight /> Free Fire
-                </li>
-                <li className="hobbies">
-                  <LuArrowBigRight /> Eating
-                </li>
-                <li className="hobbies">
-                  <LuArrowBigRight /> Sleeping
-                </li>
+                <li className="hobbies">Free Fire</li>
+                <li className="hobbies">Eating</li>
+                <li className="hobbies">Sleeping</li>
               </ul>
             </div>
             <h1 className="quote">"Turning dreams into reality."💫</h1>
