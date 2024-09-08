@@ -45,7 +45,6 @@ const About = () => {
             </div>
             <h1 className="quote">"Turning dreams into reality."💫</h1>
             <h3 className="quote-para">-vamshi.</h3>
-
             <Button className="btn hireme-btn">
               <NavLink to="/contact"> hire me </NavLink>
             </Button>
@@ -155,7 +154,6 @@ const Wrapper = styled.section`
     font-size: 20px;
     font-weight: 400;
     text-align: center;
-    color: #9333ea;
   }
   .section-hero-image {
     display: flex;
@@ -168,6 +166,7 @@ const Wrapper = styled.section`
 
   .hero-img {
     max-width: 80%;
+    margin-bottom: 50px;
   }
 
   @media (max-width: ${({ theme }) => theme.media.mobile}) {
@@ -200,7 +199,7 @@ const Wrapper = styled.section`
     color: #9333ea;
   }
   .hero-heading-1 {
-    margin-top: 30px;
+    margin-top: 120px;
     text-align: center;
     font-size: 2rem;
     font-weight: 200;
@@ -214,6 +213,9 @@ const Wrapper = styled.section`
     margin-bottom: 1.5rem;
     color: black;
     // color: ${({ theme }) => theme.colors.helper};
+  }
+  .btn {
+    margin-bottom: 50px;
   }
 `;
 export default About;
